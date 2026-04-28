@@ -1,0 +1,21 @@
+id	intensity	prompt_type	main_text	sober_text	deck
+1	mild	Truth	What’s the most embarrassing thing your parents caught you doing?	Do your best impression of your parent scolding you.	friends
+2	mild	Never Have I Ever	lied about my age. (If you have, take a sip.)	Tell a funny lie about the person to your right – they must guess if it’s true.	friends
+3	mild	Truth	What’s the weirdest food combination you secretly love?	Mix two random condiments and try a tiny spoonful.	friends
+4	mild	Truth	If you could swap lives with someone in this room for a day, who would it be and why?	Act out that person’s morning routine without speaking.	friends
+5	mild	Never Have I Ever	sent a text to the wrong person that I deeply regretted.	Write a fake embarrassing text message to someone famous and read it aloud.	friends
+6	spicy	Truth	What’s the most romantic thing you’ve ever done that nobody knows about?	Recite a cheesy pickup line while maintaining eye contact with the person on your left.	friends
+7	spicy	Truth	Describe your first kiss in three words.	Demonstrate how you would flirt using only facial expressions.	friends
+8	spicy	Never Have I Ever	had a crush on someone in this room.	Serenade your phone’s last‑called contact with a love song.	friends
+9	spicy	Dare	Do an impression of a celebrity and let the group guess who it is.	Do an impression of a celebrity and let the group guess who it is.	friends
+10	spicy	Truth	What’s the pettiest reason you’ve stopped talking to someone?	Write a petty break‑up letter to an inanimate object (e.g., your toaster).	friends
+11	wild	Truth	What’s a secret you’ve never told anyone in this room?	Let the group scroll through your phone’s gallery for 30 seconds.	friends
+12	wild	Never Have I Ever	stalked an ex on social media for more than a month.	Create a fake motivational quote about stalking and recite it dramatically.	friends
+13	wild	Dare	Swap phones with someone and send a wholesome message to any contact.	Swap phones with someone and send a wholesome message to any contact.	friends
+14	wild	Truth	If your friends could describe you in one word behind your back, what would it be?	Go around the circle and guess that one word for each player without them speaking.	friends
+15	mild	Truth	What’s a skill you pretend to have but actually don’t?	Fumble through a terrible 30‑second tutorial of that skill.	friends
+16	mild	Never Have I Ever	laughed at a moment I was supposed to be serious.	Try to make the group laugh using only funny faces, no sounds.	friends
+17	spicy	Truth	What’s the most inappropriate thought you’ve had during a meeting/class?	Re‑enact that thought using only gibberish and gestures.	friends
+18	spicy	Dare	Talk in a fake accent until your next turn.	Talk in a fake accent until your next turn.	friends
+19	mild	Truth	If you had to delete one app from your phone forever, which would it be?	Uninstall and reinstall a small app right now (or pretend to).	friends
+20	mild	Never Have I Ever	Googled my own name to see what comes up.	Read aloud the funniest search suggestion that pops up when you start typing your name.	friends
