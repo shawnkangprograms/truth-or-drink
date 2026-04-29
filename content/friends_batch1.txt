@@ -19,3 +19,23 @@ id	intensity	prompt_type	main_text	sober_text	deck
 18	spicy	Dare	Talk in a fake accent until your next turn.	Talk in a fake accent until your next turn.	friends
 19	mild	Truth	If you had to delete one app from your phone forever, which would it be?	Uninstall and reinstall a small app right now (or pretend to).	friends
 20	mild	Never Have I Ever	Googled my own name to see what comes up.	Read aloud the funniest search suggestion that pops up when you start typing your name.	friends
+21	mild	Truth	What’s the most ridiculous thing you’ve ever done to impress someone?	Do a 30‑second dramatic re‑enactment of that moment.
+22	mild	Never Have I Ever	faked a phone call to get out of a boring conversation.	Mime a fake phone call where you’re trying to escape an awkward chat.
+23	mild	Truth	What’s a hidden talent you have that nobody here knows about?	Give a short demonstration of that talent, even if you mess it up.
+24	mild	Truth	If your life was a movie, what would be the title and who would play you?	Strike a dramatic movie‑poster pose and let the group guess the title.
+25	mild	Never Have I Ever	Googled a question during an argument to prove I was right.	Re‑enact a fake courtroom scene where you present evidence from your phone.
+26	spicy	Truth	What’s the most embarrassing autocorrect fail you’ve ever sent?	Read the funniest autocorrect suggestion your phone currently offers.
+27	spicy	Truth	Have you ever accidentally liked a very old photo while stalking someone?	Scroll through your phone’s gallery and find the most awkward photo to share.
+28	spicy	Dare	Tell a joke so bad that the group has to force‑laugh for at least 5 seconds.	Tell a joke so bad that the group has to force‑laugh for at least 5 seconds.
+29	spicy	Truth	What’s the most rebellious thing you did as a teenager?	Share a fake “confession” video as if you’re spilling a huge secret.
+30	spicy	Never Have I Ever	pretended to know a song’s lyrics when I actually had no idea.	Lip‑sync to a song you don’t know while the group tries to guess what it is.
+31	wild	Truth	If you had to kiss someone in this room on the forehead right now, who would it be?	Slowly walk around the circle and dramatically stop behind one person without saying why.
+32	wild	Dare	Let the group pick an emoji, then send it to the last person you messaged.	Let the group pick an emoji, then send it to the last person you messaged.
+33	wild	Truth	What’s the wildest thing you’ve ever done on a bet?	Create a fake “I lost a bet” challenge for yourself and do it immediately.
+34	wild	Never Have I Ever	crash someone else’s party without being invited.	Knock on the nearest door/table and introduce yourself like you belong there.
+35	mild	Truth	What’s a movie that always makes you cry, even though you pretend it doesn’t?	Recite the most emotional line from that movie in an overly dramatic way.
+36	mild	Never Have I Ever	sung karaoke completely sober.	Sing the chorus of any song you know, right now, with no music.
+37	spicy	Truth	What’s the most childish habit you still have as an adult?	Act out that habit for 10 seconds while the others observe.
+38	spicy	Dare	Talk to an inanimate object for 30 seconds as if it’s your best friend.	Talk to an inanimate object for 30 seconds as if it’s your best friend.
+39	mild	Truth	What small act of kindness have you never told anyone about?	Pay a compliment to the person to your right that you’ve never said aloud.
+40	mild	Never Have I Ever	worn mismatched socks on purpose.	Find a random object in the room to wear on your head for the next round.
