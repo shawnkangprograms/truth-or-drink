@@ -1,0 +1,21 @@
+id	intensity	prompt_type	main_text	sober_text	deck
+1	mild	Truth	What’s the most romantic thing your partner has ever done for you?	Describe that moment to the person on your left in a dramatic whisper.
+2	mild	Never Have I Ever	fallen asleep during a movie night cuddling.	Pretend to be half‑asleep and tell a nonsensical bedtime story.
+3	mild	Truth	What’s your favourite non‑physical trait about your partner?	Give a 30‑second speech praising that trait about a random object in the room.
+4	mild	Truth	What’s the first thing you noticed about your significant other?	Act out that first meeting using only two words and gestures.
+5	mild	Never Have I Ever	written a love letter or poem for someone.	Compose a quick haiku about love and read it to the group.
+6	spicy	Truth	What’s the most embarrassing couple fight you’ve ever had in public?	Re‑enact an over‑the‑top dramatic argument with an imaginary partner.
+7	spicy	Truth	Have you ever checked your partner’s phone without permission?	If yes, mime the expression you had when you got caught.
+8	spicy	Never Have I Ever	had a crush on my partner’s friend.	Draw a quick sketch of your “ideal celebrity type” and show the group.
+9	spicy	Dare	Whisper a romantic compliment to the person on your right.	Whisper a romantic compliment to the person on your right.
+10	spicy	Truth	What’s the most adventurous place you’ve ever been intimate?	Describe the setting as if it were a travel brochure – no details needed.
+11	wild	Truth	Have you ever fantasised about someone else while with your partner?	Describe your ideal dream vacation – and let the group guess who you’d take.
+12	wild	Never Have I Ever	sent a flirty text to the wrong person by accident.	Type a fake flirty message now and pretend to send it to a random contact.
+13	wild	Dare	Slow‑dance to the first song that comes into your head for 30 seconds.	Slow‑dance to the first song that comes into your head for 30 seconds.
+14	wild	Truth	What’s the most jealous you’ve ever been in a relationship?	Tell a funny, exaggerated story about a “green‑eyed monster” who follows you around.
+15	mild	Truth	What small thing does your partner do that secretly annoys you?	Demonstrate that habit silently and let the group guess what it is.
+16	mild	Never Have I Ever	used a cheesy pickup line that actually worked.	Deliver the cheesiest pickup line you know directly to the person opposite you.
+17	spicy	Truth	What’s the most awkward double‑date experience you’ve had?	Narrate a 30‑second “awkward silence” as if it were a nature documentary.
+18	spicy	Dare	Give a dramatic reading of your last 3 text messages.	Give a dramatic reading of your last 3 text messages.
+19	mild	Truth	What’s a relationship deal‑breaker you’ve never told anyone?	Write it down on a piece of paper and let one random person read it silently.
+20	mild	Never Have I Ever	pretended to like a gift from my partner.	Wrap any object on the table in a napkin and unwrap it with over‑enthusiastic joy.
