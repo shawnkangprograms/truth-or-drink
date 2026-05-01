@@ -1,0 +1,21 @@
+id	intensity	prompt_type	main_text	sober_text	deck
+21	mild	Dare	Balance a book on your head and walk across the room.	Balance a book on your head and walk across the room.	sober_dare
+22	mild	Dare	Write a short poem about the group and read it aloud.	Write a short poem about the group and read it aloud.	sober_dare
+23	mild	Dare	Speak only in whispers for the next two turns.	Speak only in whispers for the next two turns.	sober_dare
+24	mild	Dare	Do your best robot dance for 30 seconds.	Do your best robot dance for 30 seconds.	sober_dare
+25	mild	Dare	List five things you love about the person to your left.	List five things you love about the person to your left.	sober_dare
+26	spicy	Dare	Perform an air guitar solo with full emotion.	Perform an air guitar solo with full emotion.	sober_dare
+27	spicy	Dare	Draw a group portrait in 60 seconds and show everyone.	Draw a group portrait in 60 seconds and show everyone.	sober_dare
+28	spicy	Dare	Give a motivational speech about why you should win the game.	Give a motivational speech about why you should win the game.	sober_dare
+29	spicy	Dare	Do an impression of another player until they recognise themselves.	Do an impression of another player until they recognise themselves.	sober_dare
+30	spicy	Dare	Invent a secret handshake with the host and demonstrate it.	Invent a secret handshake with the host and demonstrate it.	sober_dare
+31	wild	Dare	Let the group give you a silly hairstyle for the next round.	Let the group give you a silly hairstyle for the next round.	sober_dare
+32	wild	Dare	Mime a famous painting and let others guess it.	Mime a famous painting and let others guess it.	sober_dare
+33	wild	Dare	Speak in fake Shakespearean English for the next three turns.	Speak in fake Shakespearean English for the next three turns.	sober_dare
+34	wild	Dare	Perform a dramatic death scene from a movie.	Perform a dramatic death scene from a movie.	sober_dare
+35	mild	Dare	Name a country for every letter of your first name.	Name a country for every letter of your first name.	sober_dare
+36	mild	Dare	Make up a short bedtime story and tell it to the group.	Make up a short bedtime story and tell it to the group.	sober_dare
+37	spicy	Dare	Hold a plank while answering three rapid‑fire questions.	Hold a plank while answering three rapid‑fire questions.	sober_dare
+38	spicy	Dare	Do your best karaoke performance with a hairbrush as a microphone.	Do your best karaoke performance with a hairbrush as a microphone.	sober_dare
+39	wild	Dare	Create a fictional news headline about tonight and read it on air.	Create a fictional news headline about tonight and read it on air.	sober_dare
+40	wild	Dare	Lead the group in a 30‑second silent disco.	Lead the group in a 30‑second silent disco.	sober_dare
