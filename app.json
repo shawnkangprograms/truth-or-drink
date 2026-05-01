@@ -8,7 +8,8 @@
     "userInterfaceStyle": "light",
     "newArchEnabled": false,
     "plugins": [
-      "@react-native-firebase/app"
+      "@react-native-firebase/app",
+      "expo-asset"
     ],
     "splash": {
       "image": "./assets/splash-icon.png",
