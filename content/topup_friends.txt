@@ -1,0 +1,11 @@
+id	intensity	prompt_type	main_text	sober_text	deck
+141	mild	Truth	What's the most useful skill you learned from a previous relationship?	Teach that skill to the group in 30 seconds.	friends
+142	mild	Never Have I Ever	forgotten someone's name immediately after being introduced.	Walk around the room and introduce yourself with a completely made‑up name.	friends
+143	mild	Truth	What's a piece of advice you wish you could give your younger self?	Write it on a piece of paper and give it to another player.	friends
+144	mild	Truth	Would you rather be able to talk to animals or speak every human language?	Explain your choice using only gestures.	friends
+145	spicy	Truth	What's the most impulsive decision you ever made on a night out?	Narrate the story as if it were a breaking news report.	friends
+146	spicy	Never Have I Ever	re‑gifted a present I didn't like.	Wrap any small object on the table and present it as a genuine gift.	friends
+147	spicy	Dare	Do an impression of the person on your left's laugh.	Do an impression of the person on your left's laugh.	friends
+148	wild	Truth	Have you ever gone through someone's phone without them knowing?	If yes, act out the face you made when you found something.	friends
+149	wild	Dare	Let the group decide your phone wallpaper for the rest of the game.	Let the group decide your phone wallpaper for the rest of the game.	friends
+150	mild	Truth	What's one thing you hope never changes about your closest friendship?	Look at the person to your right and smile for 10 seconds without speaking.	friends
