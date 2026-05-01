@@ -1,0 +1,21 @@
+id	intensity	prompt_type	main_text	sober_text	deck
+1	mild	Truth	What’s the cringiest thing a colleague has ever said in a meeting?		Imitate that colleague’s voice for 10 seconds.	office_safe
+2	mild	Never Have I Ever	accidentally replied all to an email.		Write a fake “reply all” apology message and read it out.	office_safe
+3	mild	Truth	If you could swap jobs with anyone in this room, who would it be?		Act out that person’s job in fast‑forward.	office_safe
+4	mild	Truth	What’s your go‑to office lunch that everyone teases you about?		Describe that lunch like a gourmet food critic.	office_safe
+5	mild	Never Have I Ever	pretended to be on a call to avoid a real conversation.		Hold a fake phone call about a completely absurd problem.	office_safe
+6	spicy	Truth	What’s the most awkward office romance rumour you’ve ever heard?		Share a completely made‑up rumour about a celebrity couple.	office_safe
+7	spicy	Truth	Have you ever taken credit for someone else’s work accidentally?		Apologise to that imaginary colleague in a formal speech.	office_safe
+8	spicy	Dare	Give a motivational speech about a pencil.		Give a motivational speech about a pencil.	office_safe
+9	spicy	Truth	What’s the most ridiculous team‑building activity you’ve done?		Lead a 30‑second mock team‑building exercise right now.	office_safe
+10	spicy	Never Have I Ever	faked technical issues to end a video call early.		Pretend your screen is frozen and act out a dramatic tech rescue.	office_safe
+11	wild	Truth	If you had to delete one work app permanently, which would you choose?		Draw an app icon on a whiteboard for others to guess.	office_safe
+12	wild	Dare	Organise a spontaneous standing desk workout for the room.		Organise a spontaneous standing desk workout for the room.	office_safe
+13	wild	Truth	What’s the most rebellious thing you’ve done at work without getting caught?		Whisper that secret to the person on your left.	office_safe
+14	wild	Never Have I Ever	pranked a colleague without them ever finding out.		Plan a harmless prank right now (just for fun).	office_safe
+15	mild	Truth	What’s the nicest compliment you’ve received at work?		Give that same compliment to someone else in the room.	office_safe
+16	mild	Never Have I Ever	stayed at a work event way longer than I wanted.		Demonstrate your best “I’m about to leave” body language.	office_safe
+17	spicy	Truth	What’s the most embarrassing autocorrect you’ve ever sent in a work email?		Read the funniest suggestion your phone gives you right now.	office_safe
+18	spicy	Dare	Write a haiku about your job.		Write a haiku about your job.	office_safe
+19	mild	Truth	If you could be the office superhero, what would your power be?		Strike a superhero pose and let the group guess your power.	office_safe
+20	mild	Never Have I Ever	used work supplies for a non‑work project.		Hold up the nearest item from your desk and invent a completely new use for it.	office_safe

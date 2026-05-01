@@ -1,0 +1,21 @@
+id	intensity	prompt_type	main_text	sober_text	deck
+1	mild	Truth	What’s the funniest thing that happened at a bachelorette party you attended?		Describe a funny party story using only sound effects.	bachelorette
+2	mild	Never Have I Ever	helped plan a bachelorette party that got a little out of hand.		Draw a quick diagram of your ideal party layout.	bachelorette
+3	mild	Truth	If you could marry any celebrity for a day, who would it be?		Do your best impression of that celebrity proposing.	bachelorette
+4	mild	Truth	What’s the most ridiculous wedding theme you’ve ever heard of?		Invent a fake wedding theme and give a 30‑second pitch.	bachelorette
+5	mild	Never Have I Ever	caught the bouquet at a wedding.		Re‑enact the bouquet toss in slow motion.	bachelorette
+6	spicy	Truth	What’s the most embarrassing thing you did at a hen party?		Act out that embarrassing moment without words.	bachelorette
+7	spicy	Truth	Describe your ideal romantic evening in three emojis.		Let the group guess those emojis by acting them out.	bachelorette
+8	spicy	Dare	Give a dramatic reading of a love poem.		Give a dramatic reading of a love poem.	bachelorette
+9	spicy	Truth	What’s the wildest thing you’ve ever done on a girls’ night out?		Tell the story as a news reporter on the scene.	bachelorette
+10	spicy	Never Have I Ever	sent a risqué photo to the wrong number.		Draw a very abstract “art” version of that photo.	bachelorette
+11	wild	Truth	What’s one thing about your partner that would surprise everyone here?		Mime that surprise fact to the group.	bachelorette
+12	wild	Dare	Make up a fake wedding toast and deliver it now.		Make up a fake wedding toast and deliver it now.	bachelorette
+13	wild	Truth	If you could have a bachelorette party anywhere in the world, where would it be?		Describe the location like a travel agent selling the trip.	bachelorette
+14	wild	Never Have I Ever	crashed a wedding I wasn’t invited to.		Pretend you’re a guest at a royal wedding and greet everyone.	bachelorette
+15	mild	Truth	What’s your best advice for a happy marriage?		Write it on a sticky note and stick it to the person next to you.	bachelorette
+16	mild	Never Have I Ever	practiced my wedding dance in front of a mirror.		Do a 20‑second solo wedding dance right now.	bachelorette
+17	spicy	Truth	What’s the most unusual location you’ve ever had a romantic encounter?		Give vague directions to that place as if you’re a GPS.	bachelorette
+18	spicy	Dare	Compliment everyone in the room in a single sentence.		Compliment everyone in the room in a single sentence.	bachelorette
+19	mild	Truth	What’s your dream honeymoon destination?		Draw a postcard from that place on a napkin.	bachelorette
+20	mild	Never Have I Ever	secretly judged a friend’s wedding choices.		Pretend you’re a wedding critic on TV.	bachelorette

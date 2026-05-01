@@ -1,0 +1,21 @@
+id	intensity	prompt_type	main_text	sober_text	deck
+1	mild	Dare	Do a 30‑second plank while naming three things you’re grateful for.	Do a 30‑second plank while naming three things you’re grateful for.	sober_dare
+2	mild	Dare	Draw a portrait of the person on your left in under one minute.	Draw a portrait of the person on your left in under one minute.	sober_dare
+3	mild	Dare	Sing the chorus of your favourite song in a silly voice.	Sing the chorus of your favourite song in a silly voice.	sober_dare
+4	mild	Dare	Do your best impression of a superhero landing.	Do your best impression of a superhero landing.	sober_dare
+5	mild	Dare	Recite the alphabet backwards without looking at anything.	Recite the alphabet backwards without looking at anything.	sober_dare
+6	spicy	Dare	Hold a yoga pose for 20 seconds while keeping a completely straight face.	Hold a yoga pose for 20 seconds while keeping a completely straight face.	sober_dare
+7	spicy	Dare	Speak in rhyming couplets for the next minute.	Speak in rhyming couplets for the next minute.	sober_dare
+8	spicy	Dare	Imitate a celebrity until someone guesses who it is.	Imitate a celebrity until someone guesses who it is.	sober_dare
+9	spicy	Dare	Do a dramatic reading of the last text message you received.	Do a dramatic reading of the last text message you received.	sober_dare
+10	spicy	Dare	Create a handshake with the person opposite you and perform it.	Create a handshake with the person opposite you and perform it.	sober_dare
+11	wild	Dare	Let the group choose a TikTok dance for you to perform.	Let the group choose a TikTok dance for you to perform.	sober_dare
+12	wild	Dare	Mime a scene from a movie and let the group guess the film.	Mime a scene from a movie and let the group guess the film.	sober_dare
+13	wild	Dare	Speak only in questions for the next three turns.	Speak only in questions for the next three turns.	sober_dare
+14	wild	Dare	Do a trust fall with the person on your right (if safe).	Do a trust fall with the person on your right (if safe).	sober_dare
+15	mild	Dare	Tell a joke without laughing; if you laugh, you start again.	Tell a joke without laughing; if you laugh, you start again.	sober_dare
+16	mild	Dare	Describe your day using only animal sounds.	Describe your day using only animal sounds.	sober_dare
+17	spicy	Dare	Swap an item of clothing (jacket, hat, etc.) with someone for the rest of the game.	Swap an item of clothing (jacket, hat, etc.) with someone for the rest of the game.	sober_dare
+18	spicy	Dare	Perform a magic trick using a random object from your pocket.	Perform a magic trick using a random object from your pocket.	sober_dare
+19	wild	Dare	Create a short rap about the group and perform it.	Create a short rap about the group and perform it.	sober_dare
+20	wild	Dare	Seriously compliment each player in the room, one by one.	Seriously compliment each player in the room, one by one.	sober_dare
