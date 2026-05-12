@@ -4,7 +4,7 @@ import RootStack from './src/navigation/RootStack';
 import { initDatabase } from './src/services/initDatabase';
 
 export default function App() {
-  useEffect(() => {
+  useEffect(() => {  
     initDatabase()
       .then(() => console.log('Database ready'))
       .catch(err => console.error('Database init failed:', err));

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1023929981688",
+    "project_id": "truth-or-drink-a392c",
+    "storage_bucket": "truth-or-drink-a392c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1023929981688:android:493661276f58cd7de4790d",
+        "android_client_info": {
+          "package_name": "com.shawnjoroge.truthordrink"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcu2uflkaPYEjO3kEuU-mAQJb9qUAHBMM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1023929981688:android:7bc0f13daea10c2fe4790d",
+        "android_client_info": {
+          "package_name": "com.shawnkang.truthordrink"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcu2uflkaPYEjO3kEuU-mAQJb9qUAHBMM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
