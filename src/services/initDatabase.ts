@@ -1,53 +1,91 @@
-import * as FileSystem from 'expo-file-system';
+import * as FileSystem from 'expo-file-system/legacy';
 import * as SQLite from 'expo-sqlite';
 
 const DB_NAME = 'bambika.db';
+
+// Expo automatically stores SQLite databases in the SQLite directory,
+// so we only need the database name when opening it.
 const DB_DIR = FileSystem.documentDirectory + 'SQLite/';
 const DB_PATH = DB_DIR + DB_NAME;
-// In production Android APKs, bundled assets are under bundleDirectory
+
+// Location of the bundled seed database inside assets
 const SEED_ASSET = FileSystem.bundleDirectory + 'assets/db/bambika_seed.db';
 
+// Store a single reusable database connection
 let dbInstance: SQLite.SQLiteDatabase | null = null;
 
 export async function initDatabase(): Promise<SQLite.SQLiteDatabase> {
-  if (dbInstance) return dbInstance;
-
-  // Ensure SQLite directory exists
-  const dirInfo = await FileSystem.getInfoAsync(DB_DIR);
-  if (!dirInfo.exists) {
-    await FileSystem.makeDirectoryAsync(DB_DIR, { intermediates: true });
+  // Prevent opening multiple connections
+  if (dbInstance) {
+    return dbInstance;
   }
 
-  // Copy seed database if not already present
-  const fileInfo = await FileSystem.getInfoAsync(DB_PATH);
-  if (!fileInfo.exists) {
-    let assetInfo = await FileSystem.getInfoAsync(SEED_ASSET);
-    if (!assetInfo.exists) {
-      // Fallback for some Android production builds (the path might differ)
-      const altAsset = FileSystem.bundleDirectory + 'assets/db/bambika_seed.db';
-      assetInfo = await FileSystem.getInfoAsync(altAsset);
-    }
-    if (!assetInfo.exists) {
+  // ---------------------------------------------------
+  // STEP 1: Ensure SQLite folder exists
+  // ---------------------------------------------------
+
+  const dirInfo = await FileSystem.getInfoAsync(DB_DIR);
+
+  if (!dirInfo.exists) {
+    await FileSystem.makeDirectoryAsync(DB_DIR, {
+      intermediates: true,
+    });
+
+    console.log('SQLite directory created');
+  }
+
+  // ---------------------------------------------------
+  // STEP 2: Check if database already exists
+  // ---------------------------------------------------
+
+  const dbInfo = await FileSystem.getInfoAsync(DB_PATH);
+
+  if (!dbInfo.exists) {
+    console.log('Database not found locally');
+
+    // ---------------------------------------------------
+    // STEP 3: Verify bundled seed database exists
+    // ---------------------------------------------------
+
+    const seedInfo = await FileSystem.getInfoAsync(SEED_ASSET);
+
+    if (!seedInfo.exists) {
       throw new Error(
-        'Seed database not found in bundle. Please rebuild the app and ensure assets/db/bambika_seed.db is present.'
+        'Seed database missing. Make sure assets/db/bambika_seed.db exists and rebuild the app.'
       );
     }
+
+    // ---------------------------------------------------
+    // STEP 4: Copy seed database into app storage
+    // ---------------------------------------------------
+
     await FileSystem.copyAsync({
-      from: assetInfo.uri,
+      from: seedInfo.uri,
       to: DB_PATH,
     });
-    console.log('Seed database copied to', DB_PATH);
+
+    console.log('Seed database copied successfully');
   } else {
-    console.log('Database already exists at', DB_PATH);
+    console.log('Existing database found');
   }
 
-  // Open the database
-  dbInstance = await SQLite.openDatabaseAsync(DB_PATH, {
-    useNewConnection: true,
-  });
+  // ---------------------------------------------------
+  // STEP 5: Open SQLite database
+  // ---------------------------------------------------
 
-  // Enable WAL mode for performance
-  await dbInstance.execAsync('PRAGMA journal_mode = WAL');
+  // Use DB_NAME instead of full DB_PATH because
+  // Expo handles the SQLite directory internally.
+  dbInstance = await SQLite.openDatabaseAsync(DB_NAME);
+
+  // ---------------------------------------------------
+  // STEP 6: Enable WAL mode
+  // ---------------------------------------------------
+
+  // WAL improves performance and concurrency
+  await dbInstance.execAsync(`
+    PRAGMA journal_mode = WAL;
+  `);
+
   console.log('Database opened successfully');
 
   return dbInstance;
@@ -55,7 +93,10 @@ export async function initDatabase(): Promise<SQLite.SQLiteDatabase> {
 
 export async function getDatabase(): Promise<SQLite.SQLiteDatabase> {
   if (!dbInstance) {
-    throw new Error('Database not initialised. Call initDatabase() first.');
+    throw new Error(
+      'Database not initialized. Call initDatabase() first.'
+    );
   }
+
   return dbInstance;
 }
