@@ -17,18 +17,19 @@ export interface SessionConfig {
   penaltyLabel: string;
   cardsPerRound: number;
   timer: number;
-  skipEnabled: boolean;
   randomOrder: boolean;
+  maxShots: number;
+  questions: QuestionCard[];
 }
 
 export interface Player {
   name: string;
-  color: string; // assigned from palette
+  color: string;
 }
 
 export interface SessionState {
   questionQueue: QuestionCard[];
-  cardHistory: QuestionCard[];
+  cardHistory: any[];
   currentPlayerIndex: number;
   drinkCounters: Record<string, number>;
   skipUsed: Record<string, boolean>;

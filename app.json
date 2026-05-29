@@ -2,28 +2,25 @@
   "expo": {
     "name": "truth-or-drink",
     "slug": "truth-or-drink",
+    "newArchEnabled": true,
     "version": "1.0.0",
     "orientation": "portrait",
-
     "icon": "./assets/icon.png",
-
     "userInterfaceStyle": "light",
-
     "assetBundlePatterns": [
       "**/*"
     ],
-
     "plugins": [
       "@react-native-firebase/app",
-      "expo-asset"
+      "@react-native-firebase/crashlytics",
+      "expo-asset",
+      "expo-audio"
     ],
-
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.shawnjoroge.truthordrink",
@@ -31,25 +28,19 @@
         "ITSAppUsesNonExemptEncryption": false
       }
     },
-
     "android": {
       "googleServicesFile": "./google-services.json",
-
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-
       "edgeToEdgeEnabled": true,
       "predictiveBackGestureEnabled": false,
-
       "package": "com.shawnjoroge.truthordrink"
     },
-
     "web": {
       "favicon": "./assets/favicon.png"
     },
-
     "extra": {
       "eas": {
         "projectId": "5303d348-379f-4fc9-8882-3a44e94973a5"
